@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Регистрация</h1>
+      <form action="/action">
+        <div>
+          <label for="email" class="purpleee">E-Mail</label>
+          <input
+            type="email"
+            placeholder="test@gmail.com"
+            id="email"
+            name="email"
+          />
+        </div>
+        <div>
+          <label for="Name">Имя</label>
+          <input type="text" placeholder="mehrona" id="Name" name="Name" />
+        </div>
+        <div>
+          <label for="gender">Пол</label>
+          <select name="gender" id="gender">
+            <option value="1">Муж</option>
+            <option value="2">Жен</option>
+          </select>
+        </div>
+        <div>
+          <label for="about">О вас</label>
+          <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button>Зарегистрироваться</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
